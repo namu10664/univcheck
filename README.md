@@ -4,6 +4,6 @@
  
  (위치 이동: %cd /content/univcheck/)
  
- (모듈을 설치하고 equivalence파일로 이동 한 후,) 
+ 모듈을 설치하고 univcheck파일로 이동 한 후,
  
  입력창에 !python main.py 을 입력하세요
