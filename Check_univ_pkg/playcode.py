@@ -1,4 +1,3 @@
-pip install openpyxl          
 from openpyxl import Workbook
 import pandas as pd
 
