@@ -1,3 +1,3 @@
 from Check_univ_pkg.playcode import *
 
-RPS_CardGame.play()
+Do_univ_checke.play()
