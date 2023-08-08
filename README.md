@@ -22,10 +22,10 @@
 
 >아래 코드를 실행하면 됨
 >
->!git clone https://github.com/namu10664/univcheck.git
->
->%cd /content/univcheck/
->
->!pip install openpyxl 
->
->!python main.py
+>>!git clone https://github.com/namu10664/univcheck.git
+>>
+>>%cd /content/univcheck/
+>>
+>>!pip install openpyxl 
+>>
+>>!python main.py
