@@ -17,25 +17,25 @@
  
  ( 위치 이동: %cd /content/univcheck/ )
 
- 사용방법: 
- 
- 모듈을 설치하고 univcheck파일로 이동 한 후,
+ >사용방법: 
+ >
+ >모듈을 설치하고 univcheck파일로 이동 한 후,
+ >
+ >( openpyxl모듈이 없다면, 입력창에서 !pip install openpyxl 를 실행해주세요. )
+ >
+ >입력창에 !python main.py 을 입력하세요.
+ >
+ >
+ >아래 코드를 실행하면 됨
+ >
+ >>!git clone https://github.com/namu10664/univcheck.git
+ >>
+ >>%cd /content/univcheck/
+ >>
+ >>!pip install openpyxl 
+ >>
+ >>!python main.py
 
- ( openpyxl모듈이 없다면, 입력창에서 !pip install openpyxl 를 실행해주세요. )
- 
- 입력창에 !python main.py 을 입력하세요.
-
-
->아래 코드를 실행하면 됨
->
->>!git clone https://github.com/namu10664/univcheck.git
->>
->>%cd /content/univcheck/
->>
->>!pip install openpyxl 
->>
->>!python main.py
-
-변경사항1. job 이전까지를 보려했지만 이제는 job과 상관없이 모든 'Institution'을 확인함
-
-변경사항2. if문에서 이름을 걸러낼 때, ','가 없는지를 묻고, 아닐 때 넘어갔지만 이제는 ',' 개수가 2개 이상일 때 넘어가도록 변경함
+ >변경사항1. job 이전까지를 보려했지만 이제는 job과 상관없이 모든 'Institution'을 확인함
+ >
+ >변경사항2. if문에서 이름을 걸러낼 때, ','가 없는지를 묻고, 아닐 때 넘어갔지만 이제는 ',' 개수가 2개 이상일 때 넘어가도록 변경함
