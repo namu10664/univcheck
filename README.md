@@ -12,11 +12,11 @@
  ( "외국대학 모음 파일"은 'Full University Name'열에 이름들이 저장돼있어야 합니다. )
  
  ( "에러를 확인하고 싶은 학과파일"은 'Institution'열에 이름들이 저장돼있어야 합니다.)
- 
- ( 설치 방법: !git clone https://github.com/namu10664/univcheck.git )
- 
- ( 위치 이동: %cd /content/univcheck/ )
 
+ ( 코드를 실행했을 때, 빈칸이 보이지 않을 수 있습니다. 문장 오른쪽을 한번 클릭하면 보입니다.)
+
+ (최종적으로 만든 에러 파일은/content/univcheck/에 있습니다.)
+ 
  >사용방법: 
  >
  >모듈을 설치하고 univcheck파일로 이동 한 후,
