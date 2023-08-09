@@ -21,18 +21,18 @@
  >
  >모듈을 설치하고 univcheck파일로 이동 한 후,
  >
- >( openpyxl모듈이 없다면, 입력창에서 !pip install openpyxl 를 실행해주세요. (모듈이 이미 있었더라도 명령어를 입력했을 때 오류는 안납니다.))
+ >( openpyxl모듈이 없다면, 입력창에서 !pip install openpyxl 를 실행해주세요. )
  >
  >입력창에 !python main.py 을 입력하세요.
  >
  >
- >아래 코드를 실행하면 됨
- >
+ >>#아래 코드를 실행하면 됨
+ >>
  >>!git clone https://github.com/namu10664/univcheck.git
  >>
  >>%cd /content/univcheck/
  >>
- >>!pip install openpyxl 
+ >>!pip install openpyxl #(모듈이 이미 있었더라도 명령어를 입력했을 때 오류는 안납니다.)
  >>
  >>!python main.py
 
