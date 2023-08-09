@@ -59,8 +59,9 @@ class Do_univ_check:
 
           for i in loc_col:                                  
 
-            for k in range(0,len(df)):                                        
-              if ',' in str(df[i][k]):                                         
+            for k in range(0,len(df)):
+              #if ',' in str(df[i][k]):
+              if str(df[i][k]).count(',') >= 2:                                      
                 if str(df[i][k].lower().replace(', ', ',')) not in t_n:               
                   print('위치: {},{}'.format(i,k))                            
                   print('오류: {}'.format((str(df[i][k].lower().replace(', ', ',')))))
