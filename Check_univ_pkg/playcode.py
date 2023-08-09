@@ -53,8 +53,8 @@ class Do_univ_check:
           for i in df.keys():                                 
            if 'Institution' in i:                            
              loc_col.append(i)                               
-           if 'Job' in i:                                    
-             break
+           #if 'Job' in i:                                    
+            # break
 
 
           for i in loc_col:                                  
